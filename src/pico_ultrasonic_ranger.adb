@@ -1,4 +1,9 @@
---  Based on: https://github.com/Seeed-Studio/Seeed_Arduino_UltrasonicRanger
+--
+--  Copyright 2024 (C) Karsten Lueth
+--
+--  SPDX-License-Identifier: BSD-3-Clause
+--
+--  Tested with: https://github.com/Seeed-Studio/Seeed_Arduino_UltrasonicRanger
 --  Wiki: https://wiki.seeedstudio.com/Grove-Ultrasonic_Ranger/
 
 with HAL;
@@ -48,6 +53,8 @@ package body Pico_Ultrasonic_Ranger is
 
    end Pulse_In;
 
+   --  Creates the starting pulse for the sensor and then measures
+   --  the duration of in input pulse.
    procedure Duration (T       : out Time;
                        Success : out Boolean;
                        Timeout : Time) is

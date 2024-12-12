@@ -1,3 +1,14 @@
+--
+--  Copyright 2024 (C) Karsten Lueth
+--
+--  SPDX-License-Identifier: BSD-3-Clause
+--
+--  Configures the Pico board and then sets the LED if the measured
+--  distance is less than 30cm and clears the LED otherwise.
+--  
+--  Tested with: https://github.com/Seeed-Studio/Seeed_Arduino_UltrasonicRanger
+--  Wiki: https://wiki.seeedstudio.com/Grove-Ultrasonic_Ranger/
+--
 with RP.Device;
 with RP.Clock;
 with RP.GPIO;
