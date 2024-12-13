@@ -1,6 +1,6 @@
 name = "pico_ultrasonic_ranger"
 description = "Driver for the Grove ultrasonic ranger. Depends on the RP Pico HAL."
-version = "0.1.0-dev"
+version = "0.1.0"
 
 authors = ["Karsten Lueth"]
 maintainers = ["Karsten Lueth <kl@kloc-consulting.de>"]
